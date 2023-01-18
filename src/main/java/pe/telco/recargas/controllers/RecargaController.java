@@ -56,7 +56,7 @@ public class RecargaController {
 
 			List<RecargaHistorialResponse> historial = recargasHistorial.stream()
 					.map(recarga -> RecargaHistorialResponse.builder().numero(recarga.getNumero())
-							.monto(recarga.getMonto()).build())
+							.monto(recarga.getMonto()).fecha(recarga.getFecha()).build())
 					.collect(Collectors.toList());
 
 			return ResponseEntity.ok(historial);

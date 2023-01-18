@@ -1,5 +1,7 @@
 package pe.telco.recargas.messages.responses;
 
+import java.util.Date;
+
 import lombok.Builder;
 import lombok.Data;
 
@@ -8,4 +10,5 @@ import lombok.Data;
 public class RecargaHistorialResponse {
 	private String numero;
 	private Double monto;
+	private Date fecha;
 }

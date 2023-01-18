@@ -1,5 +1,6 @@
 package pe.telco.recargas.services.impl;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -23,6 +24,7 @@ public class RecargaServiceImpl implements RecargaService {
 
 	@Override
 	public Recarga save(Recarga t) throws Exception {
+		t.setFecha(new Date());
 		return recargaRepository.save(t);
 	}
 

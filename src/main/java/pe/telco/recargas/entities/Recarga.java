@@ -1,5 +1,7 @@
 package pe.telco.recargas.entities;
 
+import java.util.Date;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -29,4 +31,5 @@ public class Recarga {
 
 	private String numero;
 	private Double monto;
+	private Date fecha;
 }
