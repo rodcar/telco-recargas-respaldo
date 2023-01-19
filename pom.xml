@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>pe.telco</groupId>
-	<artifactId>telco-recargas</artifactId>
+	<artifactId>telco-recargas-respaldo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>telco-recargas</name>
+	<name>telco-recargas-respaldo</name>
 	<description>Servicio de recargas</description>
 	<properties>
 		<java.version>17</java.version>

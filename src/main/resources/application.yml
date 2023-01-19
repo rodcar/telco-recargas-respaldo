@@ -4,7 +4,7 @@ server:
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:3909/recargas
+    url: jdbc:mariadb://localhost:3909/recargas-respaldo
     username: root
     password: root
   jpa:
@@ -15,7 +15,7 @@ spring:
       hibernate:
         format_sql: true
   application:
-    name: recargas
+    name: recargas-respaldo
 
 eureka:
   client:
