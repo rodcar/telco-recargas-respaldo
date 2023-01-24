@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: recargas-respaldo
+  cloud:
+    config:
+      uri: http://localhost:8889
